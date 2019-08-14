@@ -11,25 +11,6 @@ Primary use:
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
-@font-face {
-  font-family: Poppins-Regular;
-  src: url('../fonts/Poppins/Poppins-Regular.ttf'); 
-}
-
-@font-face {
-  font-family: Poppins-Bold;
-  src: url('../fonts/Poppins/Poppins-Bold.ttf'); 
-}
-
-@font-face {
-  font-family: Lato-Regular;
-  src: url('../fonts/Lato/Lato-Regular.ttf'); 
-}
-
-@font-face {
-  font-family: Lato-Bold;
-  src: url('../fonts/Lato/Lato-Bold.ttf'); 
-}
 
 
 
@@ -136,7 +117,7 @@ input.input100 {
   right: 12px;
   pointer-events: none;
 
-  font-family: Poppins-Regular;
+  font-family: Montserrat;
   color: #c80000;
   font-size: 14px;
   line-height: 1.4;
@@ -153,7 +134,7 @@ input.input100 {
 
 .alert-validate::after {
   content: "\f12a";
-  font-family: FontAwesome;
+  font-family: Montserrat;
   display: block;
   position: absolute;
   color: #c80000;
@@ -237,10 +218,11 @@ input.input100 {
   font-size: 24px;
   line-height: 1.5;
   color: #555555;
+  font-weight: 300;
 }
 
 .m1-txt2 {
-  font-family: Poppins-Bold;
+  font-family: Montserrat;
   font-size: 24px;
   line-height: 1.5;
   color: #555555;
@@ -647,4 +629,8 @@ input.input100 {
   .w-full-ssm {width: 100%;}
   /*---------------------------------------------*/
 
+}
+#teaser{
+	padding-bottom: 36px;
+	font-weight: 400;
 }
